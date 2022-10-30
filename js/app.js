@@ -8,8 +8,8 @@ var proposals = [];
 let voters = [];
 var myAddress;
 var eleicao;
-const CONTRACT_ADDRESS = "0xf396a27e87ccf377c289b8375c3817046e94133e";
-//const CONTRACT_ADDRESS = "0x0CE2c5bccA2317E06DCb87Ff228A751B6CB7b1d7";
+//const CONTRACT_ADDRESS = "0xf396a27e87ccf377c289b8375c3817046e94133e";
+const CONTRACT_ADDRESS = "0x0CE2c5bccA2317E06DCb87Ff228A751B6CB7b1d7";
 
 const ethEnabled = () => {
 	if (window.ethereum) {
