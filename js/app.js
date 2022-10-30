@@ -214,6 +214,7 @@ async function chairperson() {
 
 
 function populaVoters(voters) {
+	tableElemVoter.empty();
 	voters.forEach((voter, index) => {
 		// Creates a row element.
 		const rowElem = document.createElement("tr");
@@ -230,7 +231,7 @@ function populaVoters(voters) {
 		rowElem.appendChild(voteCell);
 
 		// Adds the new row to the voting table.
-		tableElemVoter.empty().appendChild(rowElem);
+		tableElemVoter.appendChild(rowElem);
 
 		// Creates an option for each candidate
 		const candidateOption = document.createElement("option");
